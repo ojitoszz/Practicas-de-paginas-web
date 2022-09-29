@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+  <form action="mailto:correo@hotmail.com" method="POST">
+    <label for="numusr">Ingresa el usuario</label>
+    <input type="text" name="nombre usuario" placeholder="Ejemplo: Uriel" id="">
+    <br><br>
+    <label for="Contraseña">Ingresa la contraseña</label>
+    <input type="password" name="pass" placeholder="Ejemolo: 123" id="">
+    <br><br>
+    <label for="Fecha">Fecha</label>
+    <input type="date" name="Fecha" id="Fecha">
+    <label for="Numero">Numero</label>
+    <input type="number" name="Numero" id="Numero">
+    <br><br>
+    <label for="Internet">Internet</label>
+    <br>
+    <label for="Casa">Casa</label>
+    <input type="checkbox" name="casa" id="casa">
+    <label for="Escuela">Escuela</label>
+    <input type="checkbox" name="Escuela" id="Escuela">
+    <label for="Otro">Otro</label>
+    <input type="checkbox" name="Otro" id="Otro">
+    <br><br>
+    <label for="Marque su Sexo">Marque su Sexo</label>
+   <br>
+    <input type="radio" name="sexo" value="Hombre">
+    <label for="Hombre">Hombre</label>
+    <input type="radio" name="sexo" id="Mujer">
+    <label for="Mujer">Mujer</label>
+    <br>
+    <label for="Color">Color</label>
+    <br>
+    <input type="color" name="colores" id="colores">
+    <br>
+    <label for="lista de colores">lista de colores</label>
+    <br>
+    <select name="lista" id="lista">
+      <option value="Rojo">Rojo</option>
+      <option value="Azul">Azul</option>
+      <option value="Verde">Verde</option>
+    </select>
+    <br>
+    <label for="pais">pais</label>
+    <br>
+    <input list="paises" name="pais">
+    <datalist id="paises">
+      <option value="Mexico">Mexico</option>
+      <option value="Canada">Canada</option>
+      <option value="USA">USA</option>
+    </datalist>
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+
+</html>
